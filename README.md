@@ -1,3 +1,13 @@
+# Redux Saga simple app
+
+- Main idea of Saga - add reaction for some action
+- Yes, it works with generators
+- **put** works as dispatch and **call** needs to call function and wait result of it
+
+---
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
