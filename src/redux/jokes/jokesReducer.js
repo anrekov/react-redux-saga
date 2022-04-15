@@ -1,7 +1,7 @@
 import { PACK_JOKES } from './types'
 
 const initialState = {
-  jokes: [],
+  jokes: JSON.parse(localStorage.getItem('jokes')),
 }
 
 export const jokesReducer = (state = initialState, action) => {

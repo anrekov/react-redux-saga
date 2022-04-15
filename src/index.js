@@ -6,7 +6,7 @@ import createSagaMiddleware from 'redux-saga'
 import App from './App'
 import { rootReducer } from './redux/rootReducer'
 import reportWebVitals from './reportWebVitals'
-import { sagaWatcher } from './redux/sagas'
+import { sagaWatcher } from './redux/jokes/sagas'
 
 const saga = createSagaMiddleware()
 const store = createStore(
